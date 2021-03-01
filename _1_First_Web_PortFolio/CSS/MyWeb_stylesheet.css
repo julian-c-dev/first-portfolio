@@ -1,0 +1,129 @@
+/********************************* Body */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Times New Roman", Times, serif;
+  color: white;
+  padding: 10px;
+  background-image: url("../Backgrounds/background_img.png");
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/********************************* Header -Title */
+.header {
+  padding: 30px;
+  border: none;
+  text-align: center;
+  background-image: url("../Backgrounds/background-grey2.jpg");
+  color: black;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/*********************************  START - nav Languages */
+.container_lang {
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+
+.languages {
+  clear: both;
+  margin: auto;
+  padding: 20px;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  line-height: 23px;
+}
+
+.languages a {
+  color: #f1f1f1;
+  font-weight: 400;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+}
+
+.languages a:hover {
+  color: grey;
+}
+
+/********************************* START nav Buttons */
+
+.container_buttons {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding: 5px;
+  border: 2px solid darkgrey;
+  border-radius: 30px;
+  background-image: url("silver.png");
+}
+
+.but_sty1 {
+  font-size: 16px;
+  padding: 2px;
+  width: 100px;
+  height: 60px;
+  margin-top: 6px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px grey;
+  outline: none;
+  line-height: 23px;
+}
+
+.but_sty1:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border: none;
+}
+
+/********************************* Main Content */
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 250px;
+  align-items: center;
+  padding: 15px;
+}
+
+section {
+  background-color: grey;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+p,
+h1,
+h2,
+h3,
+li,
+form {
+  width: 50%;
+  padding: 15px;
+  margin: auto;
+}
+
+/********************************* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  box-sizing: inherit;
+}
